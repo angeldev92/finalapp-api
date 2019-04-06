@@ -13,9 +13,9 @@ const saltRounds = 10;
 const db = knex({
   client: 'pg',
   connection: {
-    host : '127.0.0.1',
+    host : 'postgresql-clear-38109',
     user : 'postgres',
-    password : 'angelpolistu92',
+    password : '123456789',
     database : 'finalappdb'
   }
 });
